@@ -1,0 +1,21 @@
+1. For importiing dataset I used Pandas library.
+
+2. Imported training dataset in a pandas dataframe.
+
+3. Checked for any null values inside the dataframe. Observed that no null values were present so we can proceed with current frame without any modifications.
+
+4. Visualised the heatmap of the correlation data of the training dataset to find any potential useless data column. Observed that almost all columns had same correlation value. So I decided not to drop any column from the table
+
+5. Split the training dataset into input(x_train) and output(y_train).
+
+6. Imported SKlearn module for creating the ML model.
+
+7. Decided to use Decision Tree approach for the model.
+
+8. Created the DecisionTreeClassifier and loaded the training dataset into it.
+
+9. imported testing dataset into another pandas dataframe.
+
+10. Repeated step 3 for testing dataset as well.
+
+11. Used model predict method of decision tree classsifier to predict output for testing data.
